@@ -346,3 +346,27 @@ ul li .ti-check-box{
 .social-button .sms span:before{
     border-left-color: #119949;
 }
+@media (max-width: 767px) {
+    .header-title::after{
+        background-color: transparent;
+    }
+    .container-fluid.no-padding {
+        padding: 10px;
+    }
+    .u-list ul{
+        padding-left: 10px;
+    }
+}
+@media only screen and (max-width: 480px)
+{
+    .hero-text {
+        padding-top: 110px;
+    }
+    .hero-text img{
+        width: 100% !important;
+    }
+    .single_feature ul,
+    .single_feature {
+        margin-bottom: 0;
+    }
+}
