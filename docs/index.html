@@ -455,7 +455,7 @@
                         Chỉ với 7.5 tỷ bạn có thể sỡ hữu ngay <br> nhà phố Lovera Park Bình Chánh.
                     </h1>
                     <button name="submit" style="display: inherit;font-size: 14px;width: auto;padding: 7px 20px;" class="btn btn-warning btn-dautu text-center auto-center" title=" Đăng ký nhận thông tin
-                        dự án từ chủ đầu tư">
+                        dự án từ chủ đầu tư" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
                         Đăng ký nhận thông tin <br>
                         dự án từ chủ đầu tư
                     </button>
@@ -598,7 +598,7 @@
                             </li>
                         </ul>
                         <button name="submit" style="font-size: 14px;width: auto;padding: 7px 20px;" class="btn btn-warning btn-dautu text-center auto-center" title=" Đăng ký nhận thông tin
-                        dự án từ chủ đầu tư">
+                        dự án từ chủ đầu tư" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
                             Đăng ký nhận thông tin <br>
                             dự án từ chủ đầu tư
                         </button>
@@ -649,6 +649,42 @@
                 <!--                <div class="animated alo-circle-fill  "></div>-->
                 <span>SMS: 08.6205.9088</span>
             </a>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">* Đăng ký xem thông tin dự án</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form action="">
+                <div class="modal-body">
+
+                            <div class="form-group">
+                                <label for="Name"></label>
+                                <input class="form-control requiredField input-label" data-val="true" data-val-required="Thông tin là bắt buộc nhập" id="Name" maxlength="50" name="Name" placeholder="Họ tên" type="text" value="" />
+                                <span class="field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="Phone"></label>
+                                <input class="form-control number-only" data-val="true" data-val-required="Thông tin là bắt buộc nhập" data-val-length="Số điện thoại không hợp lệ" data-val-length-max="13" data-val-length-min="10" data-val-regex="Số điện thoại không hợp lệ" data-val-regex-pattern="^[0-9]*$" data-val-requiredif="Thông tin là bắt buộc nhập." data-val-requiredif-comp="isequalto" data-val-requiredif-other="Email" data-val-requiredif-value="" id="Phone" maxlength="14" name="Phone" placeholder="Số điện thoại" type="number" value="" />
+                                <span class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="Email"></label>
+                                <input class="form-control" id="Email" maxlength="50" name="Email" data-val- data-val-required="Thông tin là bắt buộc nhập" placeholder="Địa chỉ email" type="email" value="" />
+                                <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                            </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="reset" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+                    <button type="submit" class="btn btn-register-bg red-bg">Nhận thông tin</button>
+                </div>
+                </form>
+            </div>
         </div>
     </div>
     <!-- Latest jQuery -->
