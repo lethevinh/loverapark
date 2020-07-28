@@ -66,24 +66,26 @@
                         <h4 class="login_register_title">
                             * Đăng ký xem thông tin dự án
                         </h4>
+                        <form action="">
                         <div class="form-group">
-                            <label>
-                                <input type="text" class=" form-control requiredField input-label" placeholder="Họ tên" name="name">
-                            </label>
+                            <label for="Name"></label>
+                            <input class="form-control requiredField input-label" data-val="true" data-val-required="Thông tin là bắt buộc nhập" id="Name" maxlength="50" name="Name" placeholder="Họ tên" type="text" value="" />
+                            <span class="field-validation-valid" data-valmsg-for="Name" data-valmsg-replace="true"></span>
                         </div>
                         <div class="form-group">
-                            <label>
-                                <input type="email" class="form-control requiredField input-label" placeholder="Số điện thoại" name="email">
-                            </label>
+                            <label for="Phone"></label>
+                            <input class="form-control number-only" data-val="true" data-val-required="Thông tin là bắt buộc nhập" data-val-length="Số điện thoại không hợp lệ" data-val-length-max="13" data-val-length-min="10" data-val-regex="Số điện thoại không hợp lệ" data-val-regex-pattern="^[0-9]*$" data-val-requiredif="Thông tin là bắt buộc nhập." data-val-requiredif-comp="isequalto" data-val-requiredif-other="Email" data-val-requiredif-value="" id="Phone" maxlength="14" name="Phone" placeholder="Số điện thoại" type="number" value="" />
+                            <span class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
                         </div>
                         <div class="form-group">
-                            <label>
-                                <input type="email" class="form-control requiredField input-label" placeholder="Địa chỉ" name="email">
-                            </label>
+                            <label for="Email"></label>
+                            <input class="form-control" id="Email" maxlength="50" name="Email" data-val- data-val-required="Thông tin là bắt buộc nhập" placeholder="Địa chỉ email" type="email" value="" />
+                            <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
                         </div>
                         <div class="form-group mbnone text-center">
                             <button class="btn btn-register-bg red-bg" type="submit" name="submit">Nhận thông tin</button>
                         </div>
+                        </form>
                     </div>
                 </div><!-- END COL-->
             </div><!-- END ROW-->
@@ -609,7 +611,7 @@
 <!--                <div class="animated alo-circle-fill  "></div>-->
                 <span>VIBER: 08.6205.9088</span>
             </a>
-            <a href="http://zalo.me/0862059088" class="zalo">
+            <a href="https://zalo.me/0862059088" class="zalo">
                 <img src="assets/images/zalo.png" alt="">
                 <div class="animated alo-circle"></div>
 <!--                <div class="animated alo-circle-fill  "></div>-->
@@ -624,6 +626,7 @@
         </div>
     </div>
     <!-- Latest jQuery -->
+    <script src="assets/js/common.js"></script>
     <script src="assets/js/jquery-1.12.4.min.js"></script>
     <!-- Latest compiled and minified Bootstrap -->
     <script src="assets/js/bootstrap.js"></script>
