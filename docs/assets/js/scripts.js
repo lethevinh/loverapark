@@ -10,11 +10,11 @@ Version      : 1.0
 	
 		/*PRELOADER JS*/
 		$(window).on('load', function() {  
-			$('.spinner').fadeOut();
-			$('.preloader').delay(350).fadeOut('slow'); 
+			// $('.spinner').fadeOut();
+			// $('.preloader').delay(350).fadeOut('slow');
 		}); 
-		/*END PRELOADER JS*/		
-		
+		/*END PRELOADER JS*/
+		$('.lazy').lazy({placeholder:'',defaultImage:''});
 		/*START MENU JS*/		
 			 if ($(window).scrollTop() > 200) {
               $('.fixed-top').addClass('menu-bg');
