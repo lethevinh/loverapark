@@ -346,6 +346,50 @@ ul li .ti-check-box{
 .social-button .sms span:before{
     border-left-color: #119949;
 }
+.owl-carousel .single_portfolio img{
+    height: 300px;
+}
+
+
+.owl-theme .owl-controls .owl-buttons div {
+    background-color: transparent;
+}
+
+.owl-theme .owl-controls .owl-next {
+    background-color: transparent;
+    float: right;
+}
+
+.owl-theme .owl-controls .owl-prev {
+    float: left;
+    background-color: transparent;
+}
+
+.owl-theme .owl-controls img {
+    width: 50px;
+}
+
+.owl-buttons,
+.owl-theme .owl-controls {
+    display: inline-block !important;
+    width: 100%;
+}
+
+.owl-carousel {
+    position: relative;
+}
+
+.owl-theme .owl-controls {
+    width: calc(100% + 140px);
+    position: absolute;
+    top: 15%;
+    left: -70px;
+    z-index: 1;
+}
+
+.owl-carousel .owl-wrapper-outer {
+    z-index: 2;
+}
 @media (max-width: 767px) {
     .header-title::after{
         background-color: transparent;
@@ -355,6 +399,12 @@ ul li .ti-check-box{
     }
     .u-list ul{
         padding-left: 10px;
+    }
+    .owl-theme .owl-controls{
+        width: 100%;
+        left: 0;
+        z-index: 99;
+        display: none;
     }
 }
 @media only screen and (max-width: 480px)

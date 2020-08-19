@@ -63,10 +63,12 @@ Version      : 1.0
 			itemsDesktopSmall:[980,2],
 			itemsTablet:[768,2],
 			itemsMobile:[650,1],
-			pagination:true,
+			pagination:false,
 			navigation:true,
 			slideSpeed:1000,
-			autoPlay:false
+			autoPlay:false,
+			nav: true,
+			navigationText: ["<img src='assets/images/prev.png'>","<img src='assets/images/next.png'>"]
 		});
 		/*END PORTFOLIOS JS*/	
 		
