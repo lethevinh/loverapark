@@ -447,6 +447,9 @@ img.lazy[data-src] {
 .single_feature_ssa ul li{
     text-align: left;
 }
+.white-bg-2 {
+    background-color: #fdfdfd;
+}
 @-webkit-keyframes rotation {
     from {-webkit-transform: rotate(0deg);}
     to {-webkit-transform: rotate(359deg);}
