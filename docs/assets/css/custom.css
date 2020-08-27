@@ -61,9 +61,12 @@ h1, h2, h3, h4, h5, h6,b, strong {
     color: red;
 }
 
+.shadow_img img.shadow {
+    box-shadow: 0 1px 13px rgb(0 0 0 / 63%);
+}
+
 .shadow_img img {
     border-radius: 12px;
-    box-shadow: 0 1px 13px rgb(0 0 0 / 63%);
     width: 100%;
     border: 2px solid white;
 }
@@ -117,6 +120,8 @@ h1, h2, h3, h4, h5, h6,b, strong {
     color: white;
 }
 .slider-text {
+    font-size: 46px;
+    text-transform: uppercase;
     color: #41a65a;
     text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
