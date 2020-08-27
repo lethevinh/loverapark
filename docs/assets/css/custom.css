@@ -456,3 +456,7 @@ img.lazy[data-src] {
     from {transform: rotate(0deg);}
     to {transform: rotate(359deg);}
 }
+
+.single_feature_ssa ul li{
+    text-align: left;
+}
